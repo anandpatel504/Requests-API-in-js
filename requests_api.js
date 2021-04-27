@@ -34,7 +34,7 @@ fs.exists(__dirname + "/courses.json",(exists)=>{
         }
         // console.log(list_of_id);
     }
-    var user = readline.question("Choose your id key:-");
+    var user = readline.question("\n\nChoose your course id:-");
     for (var i in list_of_id){
         // console.log(i)
         if(i == user){
@@ -67,7 +67,7 @@ fs.exists(__dirname + "/courses.json",(exists)=>{
                     number1+=1
             
                 }
-                console.log("------------------------sahi khel raha hai bhai tu----------------------")
+                console.log("\n------------------------sahi khel raha hai bhai tu----------------------\n")
                 
                 var user_5 = readline.question("input your course content number:-");
                 for (l in nubmer_list){
